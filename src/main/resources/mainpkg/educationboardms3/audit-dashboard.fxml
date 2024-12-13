@@ -12,13 +12,13 @@
             <Font size="36.0" />
          </font>
       </Label>
-      <Button layoutX="258.0" layoutY="121.0" mnemonicParsing="false" text="Results Verification" />
-      <Button layoutX="398.0" layoutY="121.0" mnemonicParsing="false" text="Audit Attendance" />
-      <Button layoutX="520.0" layoutY="121.0" mnemonicParsing="false" text="Teacher Performance" />
-      <Button layoutX="520.0" layoutY="155.0" mnemonicParsing="false" text="Financial Audit" />
-      <Button layoutX="660.0" layoutY="121.0" mnemonicParsing="false" text="Policy Compliance" />
-      <Button layoutX="643.0" layoutY="155.0" mnemonicParsing="false" text="Question Paper Audit" />
-      <Button layoutX="258.0" layoutY="155.0" mnemonicParsing="false" text="Complaint Tracker" />
-      <Button layoutX="396.0" layoutY="155.0" mnemonicParsing="false" text="Report Generator" />
+      <Button layoutX="258.0" layoutY="121.0" mnemonicParsing="false" onAction="#resultVerificationOnClick" text="Results Verification" />
+      <Button layoutX="398.0" layoutY="121.0" mnemonicParsing="false" onAction="#auditAttendanceOnClick" text="Audit Attendance" />
+      <Button layoutX="520.0" layoutY="121.0" mnemonicParsing="false" onAction="#teacherPerformanceOnClick" text="Teacher Performance" />
+      <Button layoutX="520.0" layoutY="155.0" mnemonicParsing="false" onAction="#auditFinanceOnClick" text="Financial Audit" />
+      <Button layoutX="660.0" layoutY="121.0" mnemonicParsing="false" onAction="#policyComplianceOnClick" text="Policy Compliance" />
+      <Button layoutX="643.0" layoutY="155.0" mnemonicParsing="false" onAction="#auditQuestionPaperOnClick" text="Question Paper Audit" />
+      <Button layoutX="258.0" layoutY="155.0" mnemonicParsing="false" onAction="#complaitTrackerOnClick" text="Complaint Tracker" />
+      <Button layoutX="396.0" layoutY="155.0" mnemonicParsing="false" onAction="#generateReportOnClick" text="Report Generator" />
    </children>
 </AnchorPane>
