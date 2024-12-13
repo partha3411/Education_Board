@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="813.0" prefWidth="999.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="361.0" layoutY="29.0" text="Attendance Audit">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="347.0" layoutY="106.0" text="Ener Date" />
+      <Label layoutX="347.0" layoutY="150.0" text="Enter Message" />
+      <DatePicker fx:id="dp_date" layoutX="472.0" layoutY="102.0" />
+      <TextField fx:id="tf_message" layoutX="472.0" layoutY="146.0" prefHeight="25.0" prefWidth="174.0" />
+      <Button layoutX="446.0" layoutY="207.0" mnemonicParsing="false" onAction="#generateCompilanceOnClick" text="Generate Compilance" />
+   </children>
+</AnchorPane>

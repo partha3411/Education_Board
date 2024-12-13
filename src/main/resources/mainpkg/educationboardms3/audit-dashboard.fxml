@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="774.0" prefWidth="1030.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="322.0" layoutY="32.0" text="Audit Officer Dashboard">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="258.0" layoutY="121.0" mnemonicParsing="false" text="Results Verification" />
+      <Button layoutX="398.0" layoutY="121.0" mnemonicParsing="false" text="Audit Attendance" />
+      <Button layoutX="520.0" layoutY="121.0" mnemonicParsing="false" text="Teacher Performance" />
+      <Button layoutX="520.0" layoutY="155.0" mnemonicParsing="false" text="Financial Audit" />
+      <Button layoutX="660.0" layoutY="121.0" mnemonicParsing="false" text="Policy Compliance" />
+      <Button layoutX="643.0" layoutY="155.0" mnemonicParsing="false" text="Question Paper Audit" />
+      <Button layoutX="258.0" layoutY="155.0" mnemonicParsing="false" text="Complaint Tracker" />
+      <Button layoutX="396.0" layoutY="155.0" mnemonicParsing="false" text="Report Generator" />
+   </children>
+</AnchorPane>
