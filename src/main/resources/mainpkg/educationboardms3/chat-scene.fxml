@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="628.0" prefWidth="836.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="264.0" layoutY="23.0" text="Chat With Teachers">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="124.0" text="Enter Your Message" />
+      <Label layoutX="157.0" layoutY="314.0" text="New Message" />
+      <Line endX="394.0" layoutX="258.0" layoutY="346.0" startX="-100.0" />
+      <TextArea fx:id="ta_message" layoutX="158.0" layoutY="174.0" prefHeight="92.0" prefWidth="495.0" promptText="Enter your Message" />
+      <Label fx:id="lbl_new_message" layoutX="157.0" layoutY="366.0" text="New Message" />
+   </children>
+</AnchorPane>

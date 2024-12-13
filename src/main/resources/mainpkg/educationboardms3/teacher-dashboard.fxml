@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="837.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="256.0" layoutY="14.0" text="Teacher Dashboard">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button layoutX="24.0" layoutY="111.0" mnemonicParsing="false" onAction="#createLessonOnClick" text="Create Lesson Plan" />
+      <Button layoutX="24.0" layoutY="149.0" mnemonicParsing="false" onAction="#assignHomeWorkOnClick" text="Assign Homework" />
+      <Button layoutX="161.0" layoutY="111.0" mnemonicParsing="false" onAction="#gradeAssignmentOnClick" text="Submissions" />
+      <Button layoutX="193.0" layoutY="149.0" mnemonicParsing="false" onAction="#scheduleExamsOnClick" text="Exam Scheduler" />
+      <Button layoutX="261.0" layoutY="111.0" mnemonicParsing="false" onAction="#monitorAttendanceOnClick" text="Attendance Tracker" />
+      <Button layoutX="316.0" layoutY="149.0" mnemonicParsing="false" onAction="#studentPerformanceOnClick" text="Student Performance" />
+      <Button layoutX="394.0" layoutY="111.0" mnemonicParsing="false" onAction="#communicateParentsOnClick" text="Message" />
+      <Button layoutX="457.0" layoutY="149.0" mnemonicParsing="false" onAction="#collaborateWithTeachersOnClick" text="Collaborations" />
+      <Button layoutX="468.0" layoutY="111.0" mnemonicParsing="false" onAction="#startExamOnClick" prefHeight="25.0" prefWidth="82.0" text="Exams" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="658.0" prefWidth="773.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="255.0" layoutY="26.0" text="Assign Homework">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="184.0" layoutY="126.0" text="Assignment's Class" />
+      <Label layoutX="184.0" layoutY="171.0" text="Assignment's Topic" />
+      <Label layoutX="183.0" layoutY="213.0" text="Additional Links" />
+      <Label layoutX="183.0" layoutY="264.0" text="Due Date" />
+      <TextField fx:id="tf_class" layoutX="342.0" layoutY="122.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextField fx:id="tf_topic" layoutX="342.0" layoutY="167.0" prefHeight="25.0" prefWidth="174.0" />
+      <TextField fx:id="tf_links" layoutX="342.0" layoutY="218.0" prefHeight="25.0" prefWidth="174.0" />
+      <DatePicker fx:id="dp_due_date" layoutX="342.0" layoutY="260.0" prefHeight="25.0" prefWidth="174.0" />
+      <Button layoutX="290.0" layoutY="329.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Publish" />
+   </children>
+</AnchorPane>

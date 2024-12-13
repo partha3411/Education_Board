@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="252.0" layoutY="28.0" text="Grade Assignments">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="252.0" layoutY="147.0" text="Enter Student ID" />
+      <Label layoutX="252.0" layoutY="196.0" text="Enter Grade" />
+      <Label layoutX="252.0" layoutY="245.0" text="Enter Remarks" />
+      <TextField fx:id="tf_student_id" layoutX="397.0" layoutY="143.0" />
+      <TextField fx:id="tf_grade" layoutX="397.0" layoutY="192.0" />
+      <TextField fx:id="tf_remarks" layoutX="398.0" layoutY="241.0" />
+      <Button layoutX="339.0" layoutY="281.0" mnemonicParsing="false" onAction="#submitGradeOnClick" text="Submit Grade" />
+      <TableView fx:id="tbl_assignment_submitted" layoutX="51.0" layoutY="380.0" prefHeight="200.0" prefWidth="666.0">
+        <columns>
+          <TableColumn fx:id="tc_std_id" prefWidth="132.0" text="Student Id" />
+          <TableColumn fx:id="tc_std_name" prefWidth="353.0" text="Student Name" />
+            <TableColumn fx:id="tc_date" prefWidth="180.0" text="Submitted Date" />
+        </columns>
+      </TableView>
+      <Label layoutX="310.0" layoutY="349.0" text="Assignment Information" />
+   </children>
+</AnchorPane>

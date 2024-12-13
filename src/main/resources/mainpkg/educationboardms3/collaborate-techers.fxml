@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="789.0" prefWidth="945.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="264.0" layoutY="28.0" text="Collaborate With Teachers">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="327.0" layoutY="143.0" text="Schedule Meetings" />
+      <Button layoutX="378.0" layoutY="188.0" mnemonicParsing="false" onAction="#opanChatOnClick" text="Chat" />
+      <Button layoutX="446.0" layoutY="188.0" mnemonicParsing="false" onAction="#trackProgresOnClick" text="Track Progress of Projects" />
+      <DatePicker fx:id="dp_date" layoutX="445.0" layoutY="139.0" />
+   </children>
+</AnchorPane>
